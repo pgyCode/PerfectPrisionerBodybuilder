@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/award_bg"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/content_header"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/white"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="3dp"
+                android:background="#66534e4e"
+                android:id="@+id/btn_qa"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp">
+    
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+    
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:paddingLeft="30dp"
+                    android:text="Q1.什么是《完美囚徒健身》？"
+                    android:textSize="17sp" />
+            </LinearLayout>
+            
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:paddingTop="30dp"
+                android:layout_marginTop="3dp"
+                android:paddingBottom="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/txt_aa"
+                android:visibility="gone"
+                android:lineSpacingMultiplier="1.4"
+                android:textSize="16sp"
+                android:text="    首先请明白“囚徒健身”是指囚徒们在监狱里的锻炼方式。&#x000A;    监狱里没有哑铃、杠铃、拉力器，什么都没有，唯一可以依靠的便是自身体重，所以“囚徒健身”也可以理解为仅仅依靠自身体重的锻炼。&#x000A;    它有六个姿势，分别是“俯卧撑”、“深蹲”、“引体向上”、“举腿”、“桥”和“倒立撑”，称之为六艺，每艺又分别对应有是个动作，称之为“十式”。&#x000A;    正是这种被人遗忘的锻炼方式，这看似简单的“六艺十式”，方能打造完美体态和真格力量！&#x000A;    《完美囚徒健身》，正是在深入理解这一锻炼方法的前提下，对它所做出的完美诠释。"
+                android:background="#66534e4e"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="3dp"
+                android:background="#66534e4e"
+                android:id="@+id/btn_qb"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp">
+    
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+    
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="Q2.如何使用应用进行锻炼？"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingTop="30dp"
+                android:layout_marginTop="3dp"
+                android:paddingBottom="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/txt_ab"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:lineSpacingMultiplier="1.4"
+                android:textSize="16sp"
+                android:text="    首先请明白“囚徒健身”是指囚徒们在监狱里的锻炼方式。&#x000A;    监狱里没有哑铃、杠铃、拉力器，什么都没有，唯一可以依靠的便是自身体重，所以“囚徒健身”也可以理解为仅仅依靠自身体重的锻炼。&#x000A;    它有六个姿势，分别是“俯卧撑”、“深蹲”、“引体向上”、“举腿”、“桥”和“倒立撑”，称之为六艺，每艺又分别对应有是个动作，称之为“十式”。&#x000A;    正是这种被人遗忘的锻炼方式，这看似简单的“六艺十式”，方能打造完美体态和真格力量！&#x000A;    《完美囚徒健身》，正是在深入理解这一锻炼方法的前提下，对它所做出的完美诠释。"
+                android:background="#66534e4e"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="3dp"
+                android:background="#66534e4e"
+                android:id="@+id/btn_qc"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp">
+    
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+    
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="Q3.如何把握动作节奏？"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingTop="30dp"
+                android:layout_marginTop="3dp"
+                android:paddingBottom="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/txt_ac"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:lineSpacingMultiplier="1.4"
+                android:text="    首先请明白“囚徒健身”是指囚徒们在监狱里的锻炼方式。&#x000A;    监狱里没有哑铃、杠铃、拉力器，什么都没有，唯一可以依靠的便是自身体重，所以“囚徒健身”也可以理解为仅仅依靠自身体重的锻炼。&#x000A;    它有六个姿势，分别是“俯卧撑”、“深蹲”、“引体向上”、“举腿”、“桥”和“倒立撑”，称之为六艺，每艺又分别对应有是个动作，称之为“十式”。&#x000A;    正是这种被人遗忘的锻炼方式，这看似简单的“六艺十式”，方能打造完美体态和真格力量！&#x000A;    《完美囚徒健身》，正是在深入理解这一锻炼方法的前提下，对它所做出的完美诠释。"
+                android:background="#66534e4e"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="3dp"
+                android:background="#66534e4e"
+                android:id="@+id/btn_qd"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp">
+    
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+    
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="Q4.如何在线/离线观看视频？"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingTop="30dp"
+                android:layout_marginTop="3dp"
+                android:paddingBottom="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/txt_ad"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:lineSpacingMultiplier="1.4"
+                android:textSize="16sp"
+                android:text="    首先请明白“囚徒健身”是指囚徒们在监狱里的锻炼方式。&#x000A;    监狱里没有哑铃、杠铃、拉力器，什么都没有，唯一可以依靠的便是自身体重，所以“囚徒健身”也可以理解为仅仅依靠自身体重的锻炼。&#x000A;    它有六个姿势，分别是“俯卧撑”、“深蹲”、“引体向上”、“举腿”、“桥”和“倒立撑”，称之为六艺，每艺又分别对应有是个动作，称之为“十式”。&#x000A;    正是这种被人遗忘的锻炼方式，这看似简单的“六艺十式”，方能打造完美体态和真格力量！&#x000A;    《完美囚徒健身》，正是在深入理解这一锻炼方法的前提下，对它所做出的完美诠释。"
+                android:background="#66534e4e"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="3dp"
+                android:background="#66534e4e"
+                android:id="@+id/btn_qe"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp">
+    
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+    
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="Q5.应用什么时候更新完整？"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingTop="30dp"
+                android:layout_marginTop="3dp"
+                android:paddingBottom="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/txt_ae"
+                android:visibility="gone"
+                android:lineSpacingMultiplier="1.4"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:text="    首先请明白“囚徒健身”是指囚徒们在监狱里的锻炼方式。&#x000A;    监狱里没有哑铃、杠铃、拉力器，什么都没有，唯一可以依靠的便是自身体重，所以“囚徒健身”也可以理解为仅仅依靠自身体重的锻炼。&#x000A;    它有六个姿势，分别是“俯卧撑”、“深蹲”、“引体向上”、“举腿”、“桥”和“倒立撑”，称之为六艺，每艺又分别对应有是个动作，称之为“十式”。&#x000A;    正是这种被人遗忘的锻炼方式，这看似简单的“六艺十式”，方能打造完美体态和真格力量！&#x000A;    《完美囚徒健身》，正是在深入理解这一锻炼方法的前提下，对它所做出的完美诠释。"
+                android:background="#66534e4e"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

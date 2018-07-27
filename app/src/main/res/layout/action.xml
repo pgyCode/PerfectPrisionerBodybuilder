@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/content_bg"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="70dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/txt_time"
+        android:text="准备"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="25sp"
+        android:id="@+id/txt_relax"
+        android:text="休息45s"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/view_count"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_marginBottom="70dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:text="共1组"
+            android:id="@+id/txt_agroup"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:layout_height="wrap_content"
+            android:text="第1组"
+            android:id="@+id/txt_cgroup"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:id="@+id/txt_count"
+            android:text="00/10"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:id="@+id/txt_tip"
+            android:text="呼气"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:layout_width="100dp"
+            android:src="@drawable/white_star"
+            android:padding="23dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:id="@+id/txt"
+            android:text="标准俯卧撑"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_width="100dp"
+            android:src="@drawable/white_star"
+            android:padding="23dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

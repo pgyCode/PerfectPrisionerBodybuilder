@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.github.pgycode.perfectprisonerbodybuilder">
+
+    <application
+        android:allowBackup="true"
+        tools:replace="android:icon, android:theme"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:name=".App"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ContentActivity"
+            android:launchMode="singleTask"/>
+
+        <activity android:name=".TrainActivity"
+            android:launchMode="singleTask"/>
+
+        <activity android:name=".ActionActivity"
+            android:launchMode="singleTask"/>
+        
+        <activity android:name=".AwardActivity"
+            android:launchMode="singleTask"/>
+
+        <activity android:name=".SetActivity"/>
+        <activity android:name=".set.FankuiActivity"/>
+        <activity android:name=".set.HaojiaoActivity"/>
+        <activity android:name=".set.JiaochengActivity"/>
+        <activity android:name=".set.JiepaiActivity"/>
+        <activity android:name=".set.JiluActivity"/>
+        <activity android:name=".set.ShangchengActivity"/>
+    </application>
+
+</manifest>

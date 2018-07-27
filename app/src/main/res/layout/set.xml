@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/root"
+    android:background="@drawable/menu_bg"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/content_header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/btn_haojiao"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:padding="10dp"
+                    android:src="@drawable/set_haojiao_icon"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="训练号角"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:padding="25dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/touming"
+                    android:src="@drawable/to_right_arrow"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/btn_jilu"
+                android:visibility="gone"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:padding="10dp"
+                    android:src="@drawable/set_jilu_icon"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="服刑记录"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:padding="25dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/touming"
+                    android:src="@drawable/to_right_arrow"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+
+            <LinearLayout
+                android:id="@+id/btn_jiepai"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:src="@drawable/set_jiepai_icon" />
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="牢房节拍"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/touming"
+                    android:padding="25dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/to_right_arrow" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/btn_fankui"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:padding="10dp"
+                    android:src="@drawable/set_fanhui_icon"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="囚徒反馈"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:padding="25dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/touming"
+                    android:src="@drawable/to_right_arrow"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/btn_jiaocheng"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:padding="10dp"
+                    android:src="@drawable/set_jiaocheng_icon"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="新犯教程"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:padding="25dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/touming"
+                    android:src="@drawable/to_right_arrow"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:visibility="gone"
+                android:id="@+id/btn_shangcheng"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:padding="10dp"
+                    android:src="@drawable/set_shangcheng_icon"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="囚徒商城"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:padding="25dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/touming"
+                    android:src="@drawable/to_right_arrow"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="当前版本：1.0.0"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
